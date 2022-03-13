@@ -1,4 +1,3 @@
-import './styles/App.scss';
 import { Main } from './views';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 
@@ -9,7 +8,7 @@ function App() {
       </header>
       <Router>
         <Switch>
-          <Route exact path="/dashboard/wishlist">
+          <Route exact path="/">
             <></>
           </Route>
           <Route path="/main">
