@@ -8,7 +8,7 @@ export default function createApiInstance(accessToken: string, baseUrl: string) 
       config.headers = {
         'Content-Type': 'application/json'
       };
-      const context = isLocal ? '' : '/api/vivo-core-api/';
+      const context = isLocal ? '' : '/nudos....../';
       config.baseURL = `${baseUrl}${context}`;
       return config;
     },

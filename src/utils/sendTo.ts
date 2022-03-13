@@ -1,0 +1,1 @@
+export const sendTo = (  push: (location: string, state?: unknown) => void, nav: string) => push(nav);
